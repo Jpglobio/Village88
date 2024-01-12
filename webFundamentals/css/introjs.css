@@ -35,7 +35,7 @@ main {
     height: 100vh;
 }
 
-nav #head {
+nav .head {
     color: darkgray;
 }
 
