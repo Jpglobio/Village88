@@ -1,0 +1,126 @@
+
+body {
+    font-family: 'Helvetica', sans-serif;
+}
+.header-container {
+    width: 50vw;
+    height: 22vh;
+    background-color: #CBD8E0;
+    display: block;
+    margin: 20px auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.photo {
+    width: 40%;
+    height: 90%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px 15px 0px 15px;
+
+}
+.photo img {
+    max-height: 100%;
+    max-width: 100%;
+    vertical-align: top;
+    margin: 0 20px;
+    border-radius: 10px;
+} 
+
+.my-description {
+    width: 50%;
+    height: 90%;
+    margin: 15px 15px 0px 15px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+
+}
+.my-description h1 {
+    font-size: 35pt;
+    color: #2D4767;
+    white-space: nowrap;
+    margin: 10px 0;
+    letter-spacing: 2px;
+}
+
+.my-description h3 {
+    margin: 10px 0px 30px 0px; 
+    letter-spacing: 1px;
+}
+.horizontal-line {
+    border-top: 3px solid #2D4767;
+    height: 1px;
+    width: 100%;
+    margin: 0;
+}
+.main-container {
+    display: block;
+    background-color: #CBD8E0;
+    width: 50vw;
+    height: 75vh;
+    margin: 0;
+    overflow: hidden;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+main {
+    width: 92%;
+    height: 25vh;
+    display: block;
+    margin: 20px auto;
+    background-color: #e2e6eb;
+}
+
+main section {
+    height: 100%;
+    width: 100%;
+    margin: 10px;
+}
+
+main h2, .second-section h3, .my-projects h3 {
+    letter-spacing: 1px;
+    text-align: center;
+    color: #5C4033;
+    padding-top: 20px;
+}
+
+main p {
+    text-align: justify;
+    text-justify: inter-word;
+    width: 90%;
+    margin-left: 30px;
+}
+
+ main .second-section {
+    height: 100vh;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+main .second-section .tech-stack{
+    text-align: center;
+    width: 49%;
+    height: 35vh;
+    display: inline-block;
+    margin: 0;
+}
+ .second-section .tech-stack img {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    margin: 2px 5px;
+}
+
+main .second-section .my-projects{
+    width: 48%;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 20px;
+    margin-left: 0 auto;
+    background: linear-gradient(to top, #A9A9A9 -15%, #f7f6f6 50%, #A9A9A9 130%);
+}
